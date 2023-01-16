@@ -33,4 +33,3 @@ resource "aws_route" "peering" {
   vpc_peering_connection_id = var.vpc_peering_connection_id
 }
 
-Footer
