@@ -21,5 +21,3 @@ output "subnets" {
 output "subnet_ids" {
   value = [for s in aws_subnet.main : s.id]
 }
-
-Footer
